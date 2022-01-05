@@ -7,7 +7,7 @@ public class Calculator {
         int result;
         result = one + two;
         System.out.println(result);
-        one= 6;
+        one = 6;
         result = one / two;
         System.out.println(result);
         one = 5;
