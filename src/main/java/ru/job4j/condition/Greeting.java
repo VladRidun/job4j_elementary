@@ -6,8 +6,9 @@ public class Greeting {
         String separate = " ";
         System.out.println(idea);
         String newbie = "But I am a newbie";
-        System.out.println(idea + separate + newbie);
+        idea = idea + separate + newbie;
         int year = 2022;
-        System.out.println(idea + separate + year);
+        idea = idea + separate + year;
+        System.out.println(idea);
     }
 }
