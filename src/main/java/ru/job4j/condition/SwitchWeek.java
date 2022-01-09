@@ -28,7 +28,7 @@ public class SwitchWeek {
             default:
                 name = "День недели неопределен, введите число!";
                 break;
-            return name;
         }
+        return name;
     }
 }
