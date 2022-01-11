@@ -30,6 +30,6 @@ public class Counter {
         System.out.println(sumByEven(1, 1));
         System.out.println(sumByEven(5, 12));
         System.out.println(sumByEven(7, 16));
-        System.out.println(sumByEven(3, 15));
+        System.out.println(sumByEven(3, 14));
     }
 }
