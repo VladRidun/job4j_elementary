@@ -2,17 +2,17 @@ package ru.job4j.loop;
 
 public class CheckPrimeNumber {
     public static boolean check(int number) {
-        boolean simpleNumber = true;
+        boolean simpleNum = true;
         if (number != 1) {
             for (int i = 2; i < number; i++) {
                 if (number % i == 0) {
-                    simpleNumber = false;
+                    simpleNum = false;
                     break;
                 }
             }
         } else {
-            simpleNumber = false;
+            simpleNum = false;
         }
-        return simpleNumber;
+        return simpleNum;
     }
 }
