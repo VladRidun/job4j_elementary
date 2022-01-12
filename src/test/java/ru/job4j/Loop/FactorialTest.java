@@ -1,4 +1,4 @@
-package ru.job4j.Loop;
+package ru.job4j.loop;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -14,6 +14,7 @@ public class FactorialTest {
         int expected = 120;
         Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenCalculateFactorialForZeroThenOne() {
         int n = 0;
