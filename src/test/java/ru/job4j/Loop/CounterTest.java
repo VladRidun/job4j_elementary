@@ -1,10 +1,8 @@
-package ru.job4j.Loop;
+package ru.job4j.loop;
 
 import org.junit.Assert;
 import org.junit.Test;
 import ru.job4j.loop.Counter;
-
-import static org.junit.Assert.*;
 
 public class CounterTest {
     @Test
@@ -15,6 +13,7 @@ public class CounterTest {
         int expected = 30;
         Assert.assertEquals(expected, result);
     }
+
     @Test
     public void whenSumEvenNumbersFromThreeToFourteenThenFiftyFour() {
         int start = 3;
