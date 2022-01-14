@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 
 public class FindLoopTest {
     @Test
-    public void whenArrayHas7Then0() {
+    public void whenArrayHas7ThenMinus1() {
         int[] data = {15, 6, 7, 9, 11, 13};
         int el = 14;
         int result = FindLoop.indexOf(data, el);
