@@ -23,7 +23,7 @@ public class MinDiapasonTest {
         int start = 1;
         int finish = 3;
         int result = MinDiapason.findMin(array, start, finish);
-        int expected = 1;
+        int expected = 3;
         Assert.assertEquals(expected, result);
     }
 
