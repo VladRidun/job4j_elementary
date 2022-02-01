@@ -12,7 +12,7 @@ public class Machine {
             while (change >= coin) {
                 change = change - coin;
                 rsl[size] = coin;
-                size++;
+              size++;
             }
         }
         return Arrays.copyOf(rsl, size);
